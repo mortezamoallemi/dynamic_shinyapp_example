@@ -59,7 +59,7 @@ lapply(packages, require, character.only = TRUE)
 
 
 # Modules Within App Directory
-modulessource <- c("https://raw.githubusercontent.com/mortezamoallemi/shinyapp_autoupdate/main/")
+modulessource <- c("https://raw.githubusercontent.com/mortezamoallemi/dynamic_shinyapp_example/main/modules/")
 
 
 ##############################################################################3
