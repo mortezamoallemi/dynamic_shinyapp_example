@@ -49,7 +49,7 @@ shinyServer(function(input, output, session) {
     ######### Load Selected Page #################################################
     ##############################################################################3
     # To read the file from storage 
-    pagefile <- paste0(modulessource, "/", parameters$page, ".R") # remove leading "?", add ".R"
+    pagefile <- paste0(modulessource, parameters$page, ".R") # remove leading "?", add ".R"
     
     # Page ID # For Modularisation
     pagename <- paste0(parameters$page) %>% gsub(pattern = " ", replacement = "")
