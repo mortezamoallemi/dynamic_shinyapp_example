@@ -1,7 +1,7 @@
 shinyServer(function(input, output, session) {
   
   ## Load Setup File #It should automatically load, but sometimes not
-  source("R/setup.R", local = T)
+  modulessource <- c("https://raw.githubusercontent.com/mortezamoallemi/dynamic_shinyapp_example/main/modules/")
   
   ##############################################################################3
   ######### Load Selected Toolbox #################################################
